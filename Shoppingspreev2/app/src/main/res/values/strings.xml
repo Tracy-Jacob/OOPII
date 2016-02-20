@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shoppingspree v2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add_Item">Add Item</string>
+    <string name="cancel">cancel</string>
+    <string name="confirm">confirm</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_confimr_add">confimrAdd</string>
+    <string name="title_activity_confirm_add">confirmAdd</string>
+    <string name="title_activity_addcartactivity">addcartactivity</string>
+</resources>
