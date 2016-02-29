@@ -15,8 +15,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
+    //this determins what the button "add Item" will do. It takes you to the next view where you add the item you want and the price and quantity
+    //when you click the button "confirm" it will take the entries and save them into a hashmap, which still needs to be implemented.
     public void additemview(View view){
-        Intent startnewview = new Intent(this, Main2Activity.class);
+        Intent startnewview;
+        startnewview = new Intent(this, Main2Activity.class);
         startActivity(startnewview);
     }
 
