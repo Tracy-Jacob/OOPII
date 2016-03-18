@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="Family" table="familytable">
+    <meta attribute="class-description">
+        this contains the family records
+    </meta>
+    <id column="id" name="id" type="int">
+        <generator class="assigned"></generator>
+    </id>
+    <property column="first_name" name="firstName" type="string"/>
+    <property column="last_name" name="lastName" type="string"/>
+</class>
+</hibernate-mapping>
